@@ -17,3 +17,23 @@ p {
 @media screen and (max-width: 576px) {
     
 }
+
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;	
+  }
+  .wrapper{
+    display: table;
+    width: 100%;
+    min-height:100vh;
+    height:100%;
+  }
+  .left-block,.right-block{
+    display: inline-block;
+    min-height:100%;  
+  }
+  .left-block{width: 68%;background:green;}
+  .right-block{width: 32%;background:red;}
